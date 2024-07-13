@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('Background.jpeg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.login-container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.login-container img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.login-container h1 {
+    font-size: 28px;
+    color: #d71d6b;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.input-container {
+    position: relative;
+    margin: 10px 0;
+}
+
+.input-container i {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #999;
+}
+
+.input-container input {
+    width: 80%;
+    padding: 15px 15px 15px 40px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.input-container input:focus {
+    outline: none;
+    border-color: #3b3f7f;
+    box-shadow: 0 0 5px rgba(59, 63, 127, 0.5);
+}
+
+.input-container .fa-eye {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #999;
+}
+
+.input-container .fa-eye-slash {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #999;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 15px;
+    background-color: #3b3f7f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-container button:hover{
+    background-color: #2a2f5f;
+}
+
+.login-container a{
+    color: #3b3f7f;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.login-container a:hover{
+    color: #d71d6b;
+}
+
+.login-container .footer-links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.footer-links a {
+    font-size: 14px;
+}

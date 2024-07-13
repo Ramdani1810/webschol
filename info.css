@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('Background 2.jpeg') no-repeat center center/cover;
+}
+
+header {
+    background-color: #2a2a72;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header img {
+    max-width: 70px;
+    margin-right: 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    font-family: serif;
+}
+
+nav {
+    background: #333;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+nav form {
+    margin: 0 10px;
+}
+
+nav button {
+    background: none;
+    border: 1px solid white;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+nav button:hover {
+    background: white;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container h2 {
+    margin-top: 0;
+}
+
+#home {
+    margin-bottom: 20px;
+}
+
+#home p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+#about {
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+#courses {
+    margin-bottom: 20px;
+}
+
+#courses ul {
+    list-style: none;
+    padding: 0;
+}
+
+#courses li {
+    background: #eaeaea;
+    margin: 10px 0;
+    padding: 10px;
+    border-left: 5px solid #2a2a72;
+}
+
+#courses a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+}
+
+#courses a:hover {
+    color: #2a2a72;
+}
+
+image {
+    text-align: center;
+    margin-bottom: 20px;
+}
+image.img {
+    max-width: 100%;
+    height: auto;
+}
+
+form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+footer {
+    padding: 20px;
+    color: white;
+    background-color: #2a2a72;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#main img {
+    width: 25%;
+}
+
+p{
+    text-align: justify;
+}
+
+h1{
+    text-align: center;
+}
